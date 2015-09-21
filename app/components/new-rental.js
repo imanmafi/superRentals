@@ -18,4 +18,5 @@ export default Ember.Component.extend({
       this.set('addNewRental', false),
       this.sendAction('save2', params);
     }
+  }
 });
